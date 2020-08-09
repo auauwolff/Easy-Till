@@ -1,0 +1,60 @@
+.count-money{
+
+    background-color: #f7f7f7;
+    width: 100%;
+    text-align: center;
+    border-radius: 100px;
+    padding-bottom: 50px;
+    z-index: 10;
+
+
+    h4{
+        margin: 50px 0 20px 0;
+    }
+
+    h2{
+        padding-top: 50px;
+        font-weight: bold;
+    }
+
+    .profit{
+        font-weight: bold;
+    }
+
+    .totals{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+    }
+
+    .totals-notes{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .package-coins{
+        display: flex;
+        justify-content: center;
+
+        // display: grid;
+        // justify-items: center;
+        // grid-gap: 1rem;
+        // grid-template-columns: repeat(auto-fit,minmax(20px, 1fr));
+
+        input{
+            width: 30px;
+            outline: none;
+            margin-right: 20px;
+        }
+    }
+
+    .denominations{
+
+        padding-top: 50px;
+        font-weight: bold;
+        font-size: 14rem;
+        
+    }
+}
