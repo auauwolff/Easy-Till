@@ -1,6 +1,7 @@
 @import  "layout";
 @import "header";
 @import "count-money";
+@import "efpos";
 
 .container{
     display: flex;
@@ -8,25 +9,6 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-}
-
-.efpos{
-   // background-color: #fdcb9e;
-    width: 100%;
-    padding-top: 150px;
-    position: relative;
-    top: -100px;
-
-    h1{
-        font-size: 20rem;
-        font-weight: bold;
-    }
-
-    h2{
-        font-size: 15rem;
-        margin: 50px;
-    }
-
 }
 
 

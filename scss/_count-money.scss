@@ -23,13 +23,17 @@
 
     .totals{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         margin-top: 20px;
+    }
+
+    h5{
+        padding: 0px 8px;
     }
 
     .totals-notes{
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
         margin-top: 20px;
         margin-bottom: 30px;
     }

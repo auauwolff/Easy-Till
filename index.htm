@@ -19,43 +19,51 @@
             
             <h4>How many Package coins you have?</h4>
                 <div class="package-coins">
-                    2$<input type="text">
-                    1$<input type="text">
-                    0.50<input type="text">
-                    0.20<input type="text">
+                    2$<input type="number" id="p-two" onchange="getPackageTotal()">
+                    1$<input type="number" id="p-one" onchange="getPackageTotal()">
+                    0.50<input type="number" id="p-zero-fifty" onchange="getPackageTotal()">
+                    0.20<input type="number" id="p-zero-twenty" onchange="getPackageTotal()">
                    
                 </div>
                 <div class="totals">
-                    <h5>Total:</h5>
-                    <h5>Float:</h5>
+                    <h5 id="p-total"></h5>
+                    <h5 id="p-float"></h5>
                 </div>
                 
 
             <h4>How many Till coins you have?</h4>
                 <div class="package-coins">
-                    2$<input type="text">
-                    1$<input type="text">
-                    0.50<input type="text">
-                    0.20<input type="text">
+                    2$<input type="text" id="t-two"
+                    onchange="getTillTotal()">
+                    1$<input type="text" id="t-one"
+                    onchange="getTillTotal()">
+                    0.50<input type="text" id="t-zero-fifty"
+                    onchange="getTillTotal()">
+                    0.20<input type="text" id="t-zero-twenty"
+                    onchange="getTillTotal()">
                 </div>
                 <div class="totals">
-                    <h5>Total:</h5>
-                    <h5>Float:</h5>
+                    <h5 id="t-total"></h5>
+                    <h5 id="t-float"></h5>
                 </div>
 
             <h4>How many Notes you have?</h4>
                 <div class="package-coins">
-                    5$<input type="text">
-                    10$<input type="text">
-                    20$<input type="text">
-                    50$<input type="text">
+                    5$<input type="text" id="n-five" 
+                    onchange="getNotesTotal()">
+                    10$<input type="text" id="n-ten" 
+                    onchange="getNotesTotal()">
+                    20$<input type="text" id="n-twenty" 
+                    onchange="getNotesTotal()">
+                    50$<input type="text" id="n-fifty" 
+                    onchange="Profit()">
                 </div>
                 <div class="totals-notes">
-                    <h5>Total:</h5>
-                    <h5>Float:</h5>
+                    <h5 id="n-total"></h5>
+                    <h5 id="n-float"></h5>
                 </div>
 
-                <span class="profit">Profit:</span>
+                <span class="profit" id="profit"></span>
                 <h2 class="denominations">Cash Button > Denominations > Number Notes Profit > Apply</h2>
         </div>
 
@@ -75,4 +83,6 @@
     </div>
     
 </body>
+
+<script src="javascript/script.js"></script>
 </html>
